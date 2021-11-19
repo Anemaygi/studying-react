@@ -1,5 +1,5 @@
 export const Conteudo = () => {
 	return (
-			<h2> estudando React </h2>
+			<><p id="descricao"> Subtítulo / descrição </p><br/></>
         );
 }

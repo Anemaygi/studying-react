@@ -11,7 +11,7 @@ export const Container = styled.div((props: { index: number; color: string;})=>(
     border-color: ${props.color};
     margin-bottom: 10px;
     align-item: center;
-    width: 100%;
+    width: 900px;
     img {
         width: 80%;
     }
@@ -24,10 +24,14 @@ export const Container = styled.div((props: { index: number; color: string;})=>(
         float:right;
     }
     #conteudo{
-        color: green;
+        color: white;
         width: 70%;
         align-item:center;
         float:left;
+    }
+
+    p{
+        font-size: 1rem;
     }
 `
 ));
