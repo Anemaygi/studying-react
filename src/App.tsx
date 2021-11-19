@@ -4,7 +4,12 @@ import { Conteudo } from './components/Conteudo';
 import { Titulo } from './components/Titulo';
 import { Divertidamente } from './components/Divertidamente';
 
-const algo = "algao";
+const itens = [
+  {nome: "algum nome",
+  descricao: "alguma descricao"},
+  {nome: "segundo nome",
+  descricao: "outra descricao"}
+];
 
 function App() {
   
@@ -13,7 +18,10 @@ function App() {
       <header className="App-header">
         <Titulo />
         <Conteudo />
-        <Divertidamente nome={algo} descricao={'legal'} />
+        {itens.map((item)=>(
+          <Divertidamente nome={item.nome} descricao={item.descricao} />
+        ))}
+
 
       </header>
       
