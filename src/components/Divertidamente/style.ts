@@ -11,7 +11,7 @@ export const Container = styled.div((props: { index: number; color: string;})=>(
     border-color: ${props.color};
     margin-bottom: 10px;
     align-item: center;
-    width: 800px;
+    width: 100%;
     img {
         width: 80%;
     }
