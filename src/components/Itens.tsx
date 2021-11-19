@@ -1,4 +1,4 @@
-import  foto  from "../img/foto.png";
+import foto from "../img/foto.png";
 
 export const itens = [
     {nome: "algum nome",

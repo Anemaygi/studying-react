@@ -14,8 +14,8 @@ function App() {
         <Titulo />
         <Conteudo />
         
-        {itens.map((item)=>(
-          <Divertidamente nome={item.nome} descricao={item.descricao} imagem = {item.imagem} />
+        {itens.map((item,index)=>(
+          <Divertidamente nome={item.nome} descricao={item.descricao} imagem = {item.imagem} index={index} />
         ))}
 
 
