@@ -2,26 +2,22 @@ import React from 'react';
 import './App.css';
 import { Conteudo } from './components/Conteudo';
 import { Titulo } from './components/Titulo';
+import { Divertidamente } from './components/Divertidamente/Divertidamente';
+import { itens } from './components/Itens';
+
 
 function App() {
   
-  const divertidamentes = ([
-    { nome: "algo", descricao: 'Sim' },
-    { nome: "algo2", descricao: 'Sim2' },
-  ]);
-
   return (
     <div className="App">
       <header className="App-header">
         <Titulo />
         <Conteudo />
         
-        {divertidamentes.map((item)=>(
-          <>
-          <label>{item.nome}</label>
-          <p>{item.descricao}</p>
-          </>
+        {itens.map((item,index)=>(
+          <Divertidamente nome={item.nome} descricao={item.descricao} imagem = {item.imagem} index={index} color={item.cor}/>
         ))}
+
 
       </header>
       
