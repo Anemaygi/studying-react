@@ -1,7 +1,7 @@
 import foto from "../img/foto.png";
 
 export const itens = [
-    {nome: "Algum Nome",
+    {nome: "Das Man",
     descricao: "alguma descricao1",
     imagem: foto,
     cor: "#66b2ff"}, 
