@@ -17,7 +17,6 @@ export const Container = styled.div((props: { index: number;})=>(
 
     label{
         color:white;
-        text-decoration: ${ done ? 'line-through' : 'initial'} ;
     }
     
 `

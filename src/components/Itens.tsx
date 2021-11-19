@@ -3,7 +3,7 @@ import foto from "../img/foto.png";
 export const itens = [
     {nome: "algum nome",
     descricao: "alguma descricao1",
-    imagem: foto}, //"../img/foto.png"
+    imagem: foto}, 
     {nome: "segundo nome",
     descricao: "outra descricao2",
     imagem: foto},

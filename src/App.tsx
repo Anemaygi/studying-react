@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Conteudo } from './components/Conteudo';
 import { Titulo } from './components/Titulo';
-import { Divertidamente } from './components/Divertidamente';
+import { Divertidamente } from './components/Divertidamente/Divertidamente';
 import { itens } from './components/Itens';
 
 
